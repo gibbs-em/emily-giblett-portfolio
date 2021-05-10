@@ -1,1 +1,36 @@
 // Specific CSS for your home-page
+
+.hero-container {
+  margin: 160px 60px 160px 0px;
+  padding: 24px 24px 24px 0px;
+  p {
+    margin-bottom: 0;
+    width: 50vw
+  }
+  .btn {
+    margin-top: 20px;
+    background-color: $light-gray;
+    border: 1px solid #005563;
+    color: #005563;
+  }
+}
+
+.spacer {
+  padding: 8px;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 64px;
+  font-color: $black
+}
+
+h2, h3, h4, h5 {
+  font-color: $black
+}
+
+p, li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-color: $black
+}

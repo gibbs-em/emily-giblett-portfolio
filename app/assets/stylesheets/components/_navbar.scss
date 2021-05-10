@@ -1,6 +1,13 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  .fas {
+    font-size: 2rem;
+    margin-left: 40px;
+  }
+  padding: 24px;
+  i { color: #005563;
+    }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -10,3 +17,9 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.resume {
+  margin-right: 40px;
+}
+
+

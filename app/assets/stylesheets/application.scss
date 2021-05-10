@@ -11,3 +11,14 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@media only screen and (min-width: 290px) and (max-width: 890px) and  (-webkit-device-pixel-ratio: 2) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    .img {
+      margin: 32px;
+      align-items: center
+    }
+  }
+}

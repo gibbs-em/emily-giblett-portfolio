@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts 'Creating projects..'
+3.times do |i|
+Project.create(
+      title: "Project #{i += 1}",
+      body: "Here is the description for project #{i += 1}"
+      )
+puts 'Done!'
+end

@@ -1,0 +1,28 @@
+.about-container {
+  display: flex;
+}
+
+.about-text {
+  padding: 0px 64px 32px 0px;
+}
+
+.img {
+  height: 450px;
+  box-shadow: #7693B6 0px 0px 0px 2px inset, #F4F4F4 10px -10px 0px -3px, #005563 10px -10px, #F4F4F4 20px -20px 0px -3px, #7693B6 20px -20px, #F4F4F4 30px -30px 0px -3px, #FBAE87 30px -30px, #F4F4F4 40px -40px 0px -3px, #FF3100 40px -40px;
+  margin-right: 40px;
+  border-radius: 4px
+}
+
+.technologies {
+  ul { list-style: none; } /* Remove default bullets */
+  display: flex;
+
+  li::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0da";
+  margin-right: 10px;
+  color: #005563;
+  }
+}
+
+
+

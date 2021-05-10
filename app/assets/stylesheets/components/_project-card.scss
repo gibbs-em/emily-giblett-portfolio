@@ -1,0 +1,46 @@
+.projects {
+  padding-left: 64px;
+  padding-top: 32px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.project-card {
+  background-color: white;
+  width: 50vw;
+  padding: 24px;
+  margin: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  border-radius: 4px
+}
+
+.project-image {
+  img {
+    height: 200px
+  }
+  position: relative;
+  left: -140px;
+  top: 64px
+}
+
+.skills {
+  display: flex;
+  .skill {
+    border: 1px solid #7693B6;
+    border-radius: 16px;
+    padding: 2px 6px;
+    margin: 0px 8px 0px 0px;
+    p {
+      font-color: #7693B6
+    }
+  }
+}
+
+.link-to {
+  display: flex;
+  .fas {
+    position: relative;
+    top: 1.5px
+  }
+  margin-top: 16px
+}
